@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header-container{
+    
+        background-color: black;
+        overflow: hidden;
+    }
+    .header-container a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        margin-left: 2%;
+      }
+      .header-container a:hover {
+        color: rgb(129, 121, 121);
+      }
+      
+      .header-container a.active{
+         color: white;
+         opacity: 0.6;
+      }
+    .header-container a.topnav{
+        float:right;
+        color: #c2bcbc;
+        margin-right: 10%;
+    
+    }
+    .img-container{
+        margin-left: 10%;
+    }
+.flex-container{
+    display: flex;
+    color: white;
+
+}
+.main-container{
+    background-color: rgba(74, 235, 238, 0.856);
+   font-family:sans-serif;
+   padding: 20px;
+   font-size:x-large;
+  }
+  .trial-container{
+   margin-left: 10%;
+   margin-top: 3%;
+   font-family: 'Roboto', sans-serif;
+  }
+  
+  .text{
+    margin-top: 1%;
+    font-size: large;
+    margin-left: 10%;
+    margin-top: 15px;
+    
+    
+  }
+  .image{
+    margin-top: 50px;
+    padding: 20px;
+    margin-left: 10%;
+    margin-top: 20px;
+    
+    
+  }
+  
+  .img-container{
+    margin-left: 10%;
+  }
+  
+  .text-block {
+    position:absolute;
+    margin-top: 30px;
+    bottom: 10px;
+    right: 20px;
+    margin-right: 50px;
+    background-color: white;
+    color: #FB5373;
+    padding: 20px;
+    
+  }
+  .p1{
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+
+
+  }
+  .login-container{
+    color: black;
+    font-size: small;
+    margin-top: 10px;
+    
+
+  }
+ 
+    .field-input {
+      background-color:#FFFFFF;
+      border-radius: 8px;
+      border: 1px solid #C4C4C4;
+      padding: 2px;
+      cursor: pointer;
+      margin-top: 5px; 
+       height: 30px;
+       padding-left: 10px;
+       font-size: small;
+       width: 100%;
+  }
+
+.button {
+    width: 40%;
+    border: none; 
+    height: 20%;
+    margin-bottom: 50%;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #FB5373;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5%;
+  }
+
+
+   
+
+
+
+
